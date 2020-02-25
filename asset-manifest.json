@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/static/css/main.2a54dce9.chunk.css",
+    "main.js": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/static/js/main.7ced4be5.chunk.js",
+    "main.js.map": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/static/js/main.7ced4be5.chunk.js.map",
+    "runtime-main.js": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/static/js/runtime-main.55e9a66f.js",
+    "runtime-main.js.map": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/static/js/runtime-main.55e9a66f.js.map",
+    "static/js/2.97603552.chunk.js": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/static/js/2.97603552.chunk.js",
+    "static/js/2.97603552.chunk.js.map": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/static/js/2.97603552.chunk.js.map",
+    "index.html": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/index.html",
+    "precache-manifest.23250a7b4645d5098fd288a3dff30757.js": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/precache-manifest.23250a7b4645d5098fd288a3dff30757.js",
+    "service-worker.js": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/service-worker.js",
+    "static/css/main.2a54dce9.chunk.css.map": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/static/css/main.2a54dce9.chunk.css.map",
+    "static/js/2.97603552.chunk.js.LICENSE.txt": "/FreeCodeCamp-Frontend-Certification-Projects/tree/master/random-quote-machine/static/js/2.97603552.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55e9a66f.js",
+    "static/js/2.97603552.chunk.js",
+    "static/css/main.2a54dce9.chunk.css",
+    "static/js/main.7ced4be5.chunk.js"
+  ]
+}
