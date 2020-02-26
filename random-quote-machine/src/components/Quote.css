@@ -2,6 +2,8 @@
   background-color: white;
   width: 40%;
   padding: 55px 30px;
+  border: none;
+  border-radius: 3px;
 }
 
 button {

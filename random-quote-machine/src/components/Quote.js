@@ -14,9 +14,11 @@ const Quote = ({ parentCb }) => {
   const getQuoteHandler = () => {
     setQuote({ ...Quotes.getQuote() });
 
-    const r = Math.floor(Math.random() * 256),
-      g = Math.floor(Math.random() * 256),
-      b = Math.floor(Math.random() * 256);
+    const r = Math.floor(Math.random() * 200 + 56),
+      g = Math.floor(Math.random() * 150),
+      b = Math.floor(Math.random() * 200);
+
+    // console.log(quote);
 
     const color = { r, g, b };
     parentCb(color);
@@ -36,7 +38,12 @@ const Quote = ({ parentCb }) => {
     <div id="quote-box" style={style1}>
       <h4 id="text">{quote.text}</h4>
       <p id="author">{quote.author}</p>
-      <a href="twitter.com/intent/tweet" target="_blank" id="tweet-quote">
+      <a
+        href={`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=\"${quote.text}\" ${quote.author}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        id="tweet-quote"
+      >
         <button className="quote-button btn-tweet" style={style2}>
           <FontAwesomeIcon icon={faTwitter} size="lg" color="white" />
         </button>
