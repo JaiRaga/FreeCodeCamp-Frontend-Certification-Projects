@@ -2,6 +2,29 @@
   border: 1px solid black;
   height: 100vh;
   width: 75%;
-  margin: 25px auto;
+  margin: auto;
   text-align: left;
+}
+
+.heading-preview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #41b3a3;
+  border: 1px solid black;
+
+  height: 7vh;
+  font-size: 15px;
+}
+
+.heading-preview h3 {
+  padding-left: 2px;
+}
+
+.preview-icon {
+  margin-top: 20px;
+  padding-right: 5px;
 }

@@ -2,8 +2,10 @@ import React, { useState } from "react";
 
 import "./Editor.css";
 
-const Editor = ({ previewCb }) => {
-  const [text, setText] = useState("# Welcome\n## to \n### Markdown previewer");
+const Editor = ({ previewCb, displayPreviewCb }) => {
+  const [text, setText] = useState(
+    "# Welcome\n\r## to \n### Markdown previewer"
+  );
   previewCb(text);
 
   const handleChange = event => {
@@ -11,8 +13,14 @@ const Editor = ({ previewCb }) => {
     previewCb(text);
   };
 
+  const [] = useState();
+
   return (
     <div>
+      <div className="heading">
+        <h3>Editor</h3>
+        <i className="fa fa-window-close editor-icon" size="2x" />
+      </div>
       <textarea
         id="editor"
         rows="4"

@@ -5,13 +5,18 @@ import Preview from "./components/Preview";
 
 function App() {
   const [rawText, setRawText] = useState("");
+  const [display, setDisplay] = useState("");
   const previewCb = text => {
     setRawText(text);
   };
 
+  const displayPreviewCb = display => {
+    setDisplay(display);
+  };
+
   return (
     <div className="App">
-      <Editor previewCb={previewCb} />
+      <Editor previewCb={previewCb} displayPreviewCb={displayPreviewCb} />
       <Preview rawText={rawText} />
     </div>
   );

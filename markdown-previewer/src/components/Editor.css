@@ -1,5 +1,36 @@
 #editor {
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
-  width: 60%;
+  width: 66%;
+  margin: auto;
   height: 300px;
+}
+
+textarea {
+  resize: none;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 66%;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #41b3a3;
+  border: 1px solid black;
+  padding: 2px;
+  height: 7vh;
+  font-size: 15px;
+}
+
+.editor-icon {
+  margin-top: 20px;
+  padding-right: 5px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
